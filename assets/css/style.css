@@ -640,9 +640,12 @@ td {
         min-width: 100%;
         padding-top: 4vh;
     }
-    .carousel-controlA {
-        display: none;
+  
+    #myCarousel .carousel-control {
+      margin-top: 415px;
+      font-size: 100px;
     }
+    
     .carousel-captionA h1,
     .carousel-captionA .lead {
         margin: 0;
