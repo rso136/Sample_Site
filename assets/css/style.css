@@ -591,6 +591,12 @@ td {
 
 @media only screen and (max-width: 500px) {
 
+    #myCarousel .container-fluid {
+      position: relative;
+      z-index: 9;
+      height: 600px;
+    }
+
     .breadcrumb {
       margin-top: 10vh;
     }
@@ -606,18 +612,19 @@ td {
         text-align: center;
     }
     .carousel-captionA > h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .itemA {
         height: 600px;
         background-color: black;
     }
-    .carouselA > .container {
+
+    /*.carouselA > .container {
         position: relative;
         z-index: 9;
         height: 600px;
-    }
+    }*/
     .itemA .bannerImg {
         position: absolute;
         top: 0;
@@ -642,14 +649,14 @@ td {
         text-align: center;
     }
     .carousel-captionB > h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
-    .carouselB > .container {
+    /*.carouselB > .container {
         position: relative;
         z-index: 9;
         height: 600px;
-    }
+    }*/
 
     .carousel-captionB h1,
     .carousel-captionB .lead {
@@ -667,14 +674,14 @@ td {
     }
     
     .carousel-captionC > h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
-    .carouselC > .container {
+    /*.carouselC > .container {
         position: relative;
         z-index: 9;
         height: 600px;
-    }
+    }*/
 
     .carousel-captionC h1,
     .carousel-captionC .lead {
