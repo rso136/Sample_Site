@@ -591,10 +591,13 @@ td {
 
 @media only screen and (max-width: 500px) {
 
+    .parallax, .parallaxB {
+      background-attachment: scroll;
+    }
+
     #myCarousel .container-fluid {
       position: relative;
       z-index: 9;
-      height: 600px;
     }
 
     .breadcrumb {
@@ -616,7 +619,7 @@ td {
     }
 
     .itemA {
-        height: 600px;
+        /*height: 70vh;*/
         background-color: black;
     }
 
@@ -715,7 +718,7 @@ td {
     }*/
     
     #testimonialA, #testimonialB {
-    border-right: none;
+      border-right: none;
     }
 
 
