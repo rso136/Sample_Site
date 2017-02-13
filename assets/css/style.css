@@ -110,7 +110,7 @@ hr {
     background-color: transparent;
     position: static;
     max-width: 500px;
-    margin-left: 50vw;
+    margin-left: 55vw;
     padding: 0 20px;
     margin-top: 35vh;
 }
@@ -591,6 +591,10 @@ td {
 
 @media only screen and (max-width: 500px) {
 
+    #myCarousel .item {
+      height: 85vh;
+    }
+
     .parallax, .parallaxB {
       background-attachment: scroll;
     }
@@ -649,6 +653,7 @@ td {
     .carousel-captionB {
         margin-top: 40vh;
         margin-left: 0;
+        padding-top: 20px;
         width: 100%;
         text-align: center;
     }
@@ -673,6 +678,7 @@ td {
     .carousel-captionC {
         margin-top: 40vh;
         margin-left: 0;
+        padding-top: 20px;
         width: 100%;
         text-align: center;
     }
