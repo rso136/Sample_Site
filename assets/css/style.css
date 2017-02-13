@@ -1,10 +1,11 @@
-html, body {
+html {
     height: 100%;
 }
 
 body {
     position: relative;
-    /*min-height: 100%;*/
+    min-height: 100%;
+    padding-bottom: 26rem;
     /*padding-bottom: 40px;*/
     color: #5a5a5a;
     background-color: #f9f9f9;
@@ -452,7 +453,7 @@ hr {
 
     color: white;
 
-    padding-top: 6vh;
+    padding-top: 4vh;
     padding-bottom: 6vh;
 
 }
@@ -574,10 +575,31 @@ td {
   margin-top: 1.8vh;
 }*/
 
+#membersInfo {
+  text-align: center;  
+  background-color: #191919;
+  color: #fff;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-bottom: 120px;
+}
+
+.membersHeading {
+  color: #d86b50;
+}
+
+#membersBenefits {
+  text-align: left;
+}
+
 .footer {
   background-color: #191919;
   color: #979899;
   padding-bottom: 4vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .footerInfoB {
@@ -602,6 +624,10 @@ td {
 }
 
 @media only screen and (max-width: 500px) {
+
+    body {
+      padding-bottom: 50rem;
+    }
 
     #myCarousel .item {
       height: 530px;
@@ -772,6 +798,18 @@ td {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
+
+  body {
+    padding-bottom: 45rem;
+  }
+
+  .parallaxB {
+    display: none;
+  }
+
+  #cafeDetailsRow {
+    border-bottom: transparent;
+  }
 
   #menuBox {
       padding-top: 50px;
