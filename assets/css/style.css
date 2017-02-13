@@ -592,7 +592,7 @@ td {
 @media only screen and (max-width: 500px) {
 
     #myCarousel .item {
-      height: 85vh;
+      height: 530px;
     }
 
     .parallax, .parallaxB {
@@ -615,6 +615,7 @@ td {
     .carousel-captionA {
         margin-top: 40vh;
         margin-left: 0;
+        padding-top: 10px;
         width: 100%;
         text-align: center;
     }
