@@ -593,6 +593,14 @@ td {
     margin-right: 1vw;
 }
 
+#copyrightB {
+  display: none;
+}
+
+#copyright {
+  margin-top: 2vh;
+}
+
 @media only screen and (max-width: 500px) {
 
     #myCarousel .item {
@@ -746,6 +754,18 @@ td {
 
     .rowBHeading {
       margin-top: 8vh;
+    }
+
+    #copyright {
+      display: none;
+    }
+
+    #copyrightB {
+      display: initial;
+    }
+
+    .footerInfoB .fa { 
+      margin-bottom: 4vh;
     }
 }
 
