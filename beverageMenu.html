@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/fce54115db.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Slab|Merriweather|Montserrat|Lora|Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-customB navbar-fixed-top">
+        <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="menuOptionB"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="menuOptionB"><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li class="menuOptionB"><a><i class="fa fa-phone-square" aria-hidden="true"></i><span class="phone">(123) 456-7890</span></a></li>
+                </ul>
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><b>CAFE NOVUS</b></a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown menuOption">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>MENU</b> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="beverageMenu.html">Beverage Menu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="entreeMenu.html">Entree Menu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </li>
+                    <li class="menuOption"><a href="#"><b>ORDER ONLINE</b></a></li>
+                    <li class="menuOption"><a href="#"><b>CONTACT</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+    <div class="row">
+            <div class="col-md-8 col-md-offset-1 col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="active">BEVERAGE MENU</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12" id="drinkMenu">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12" id="bevMenuHeading">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <h2 class="drinkHeaders">Espresso Drinks</h2>
+                        <table class="table borderless">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Tall</th>
+                                    <th>Grande</th>
+                                    <th>Venti</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="entree">Cafe Latte</td>
+                                    <td>$2.75</td>
+                                    <td>$3.35</td>
+                                    <td>$3.75</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Cafe Mocha</td>
+                                    <td>$3.25</td>
+                                    <td>$3.85</td>
+                                    <td>$4.15</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Cafe Americano</td>
+                                    <td>$1.95</td>
+                                    <td>$2.45</td>
+                                    <td>$2.90</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Cappuccino</td>
+                                    <td>$2.75</td>
+                                    <td>$3.35</td>
+                                    <td>$3.75</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Caramel Macchiato</td>
+                                    <td>$3.35</td>
+                                    <td>$4.15</td>
+                                    <td>$4.50</td>
+                                </tr>
+                                <tr>
+                                    <td><h2 class="drinkHeaders">Smoothies</h2></td>
+                                </tr>
+                            </tbody>      
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Tall</th>
+                                    <th>Grande</th>
+                                    <th>Venti</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="entree">Banana Berry</td>
+                                    <td>$3.50</td>
+                                    <td>$4.00</td>
+                                    <td>$4.50</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Pineapple Aloha</td>
+                                    <td>$3.50</td>
+                                    <td>$4.00</td>
+                                    <td>$4.50</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Strawberry Delight</td>
+                                    <td>$3.50</td>
+                                    <td>$4.00</td>
+                                    <td>$4.50</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Peach Passion</td>
+                                    <td>$3.50</td>
+                                    <td>$4.00</td>
+                                    <td>$4.50</td>
+                                </tr>
+                            </tbody>                            
+                        </table>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h2 class="drinkHeaders">Coffee & Misc Drinks</h2>
+                        <table class="table borderless">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Tall</th>
+                                    <th>Grande</th>
+                                    <th>Venti</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="entree">Coffee</td>
+                                    <td>$1.50</td>
+                                    <td>$1.75</td>
+                                    <td>$1.95</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Hot Tea</td>
+                                    <td>$1.75</td>
+                                    <td>$1.95</td>
+                                    <td>$2.35</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Chai Tea Latte</td>
+                                    <td>$2.80</td>
+                                    <td>$3.35</td>
+                                    <td>$3.75</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Hot Chocolate</td>
+                                    <td>$2.50</td>
+                                    <td>$2.95</td>
+                                    <td>$3.35</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Iced Coffee</td>
+                                    <td>$1.75</td>
+                                    <td>$2.15</td>
+                                    <td>$2.60</td>
+                                </tr>
+                                <tr>
+                                    <td><h2 class="drinkHeaders">Frappuccinos</h2></td>
+                                </tr>
+                            </tbody>    
+                            <thead>
+                                <tr>
+                                <th></th>
+                                    <th>Tall</th>
+                                    <th>Grande</th>
+                                    <th>Venti</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="entree">Coffee</td>
+                                    <td>$3.00</td>
+                                    <td>$3.50</td>
+                                    <td>$4.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Caramel</td>
+                                    <td>$3.00</td>
+                                    <td>$3.50</td>
+                                    <td>$4.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Mocha</td>
+                                    <td>$3.00</td>
+                                    <td>$3.50</td>
+                                    <td>$4.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="entree">Vanilla Bean</td>
+                                    <td>$3.00</td>
+                                    <td>$3.50</td>
+                                    <td>$4.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12" id="bevBtnRow">
+                    <a class="btn btn-customH" href="#">Order Online</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-2 col-xs-12 footerInfoA" id="anchor2">
+                                <h2 class="footerHeading"><b>CAFE NOVUS</b></h2>
+                                <br>
+                                <p>Cafe Novus has been proudly serving the High Abbey community since 1995. As a commitment to the quality of our menu and staff, we are always open to our customer's feedback and suggestions.</p>
+                                <br>
+                                <h5 id="copyright">© Richard Oh</h5>
+                            </div>
+                            <div class="col-md-4 col-md-offset-1 col-xs-12 footerInfoB">
+                                <h4><b>CONTACT US</b></h4>
+                                <p>Phone: (123) 456-7890</p>
+                                <p>Email: Customercare@cafenovus.com</p>
+                                <p>Address: 149 South Main St.</p>
+                                <p>High Abbey, NJ 42801</p>
+                                <br>
+                                <h4><b>FOLLOW US</b></h4>
+                                <i class="fa fa-facebook-official fa-lg" id="iconA" aria-hidden="true"></i>
+                                <a href="#" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true" id="iconB"></i></a>
+                               <i class="fa fa-yelp fa-lg" aria-hidden="true" id="iconC"></i>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>    
+</body>
+
+</html>

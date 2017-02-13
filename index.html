@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/fce54115db.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Slab|Merriweather|Montserrat|Lora" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-customB navbar-fixed-top">
+        <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="menuOptionB"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="menuOptionB"><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li class="menuOptionB"><a><i class="fa fa-phone-square" aria-hidden="true"></i><span class="phone">(123) 456-7890</span></a></li>
+                </ul>
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><b>CAFE NOVUS</b></a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown menuOption">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>MENU</b> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="beverageMenu.html">Beverage Menu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="entreeMenu.html">Entree Menu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="index.html">Home</a></li>
+                        </ul>
+                    </li>
+                    <li class="menuOption"><a href="#"><b>ORDER ONLINE</b></a></li>
+                    <li class="menuOption"><a href="#"><b>CONTACT</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel carouselA slide" data-ride="carousel">
+        <ol class="carousel-indicators carousel-indicatorsA">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner carousel-innerA">
+            <div class="item itemA active">
+                <img class="bannerImg" id="bannerImg1" src="assets/images/wideA.jpg">
+                <div class="container-fluid">
+                    <div class="carousel-caption carousel-captionA">
+                        <h1 class="bannerHeading"><b>CAFE NOVUS</b></h1>
+                        <br>
+                        <p class="lead">High Abbey's foremost cafe and delicatessan specializing in artisan food and beverages with premier ingredients.</p>
+                        <a class="btn btn-large btn-custom" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item itemA">
+                <img class="bannerImg" id="bannerImg2" src="assets/images/foodC.jpg" alt="">
+                    <div class="container-fluid">
+                        <div class="carousel-caption carousel-captionB">
+                            <h1 class="bannerHeading2"><b>Comforting & Healthy</b></h1>
+                            <br>
+                            <p class="lead">Try our new and delicious butternut squash porridge.</p>
+                            <a class="btn btn-large btn-custom2" href="#">More Entrees</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="item itemA">
+                <img class="bannerImg" id="bannerImg3" src="assets/images/bakerywide.jpg" alt="">
+
+                    <div class="container-fluid">
+                        <div class="carousel-caption carousel-captionC">
+                            <h1 class="bannerHeading2"><b>Always Fresh</b></h1>
+                            <br>
+                            <p class="lead">All our baked goods are prepped on premise.</p>
+                            <a class="btn btn-large btn-custom2" href="#">View Menu</a>
+                        </div>
+                    </div>
+            </div>
+            <a class="left carousel-control carousel-controlA" href="#myCarousel" data-slide="prev">‹</a>
+            <a class="right carousel-control carousel-controlA" href="#myCarousel" data-slide="next">›</a>
+        </div>
+    </div>
+        <!-- /.carousel -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-xs-12" id="menuBox">
+                    <h2 id="menuHeading">OUR MENU</h2>
+                    <p id="menuStatement">All of our menu items are prepared with fresh, non-GMO, certified organic ingredients because we consider our customers a long-term investment. Your enjoyment and health matters to us and we aim to develop lasting relationships with each patron that visits our establishment.</p>
+                    <hr>
+                    <a class="btn btn-customB" href="#">Beverages</a>
+                    <a class="btn btn-customC" href="#">Entree Menu</a>
+                </div>
+                <div class="col-md-6 col-xs-12" id="menuImage">
+
+                    <h2 id="specialsHeading">WEEKLY SPECIALS</h2>
+                    <br>
+                    <p><b>VEGETARIAN CHILI</b></p>
+                    <p><b>GREEK HUMUS WRAP</b></p>
+                    <p><b>ITALIAN GARDEN SANDWICH</b></p>
+                    <p><b>ROASTED TILAPIA BAGUETTE</b></p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12" id="membersImage">
+                    <h2 id="membersHeading">Become a Cafe Novus Member</h2>
+
+                    <h3>Sign up for a Cafe Novus membership and receive 15% off on all beverage purchases.</h3>
+                    <a id="memberButton" class="btn btn-large btn-custom" href="#">Learn More</a>
+                </div>
+                <div class="col-md-6 col-xs-12" id="onlineBox">
+
+                    <h3 id="onlineHeading"><b>Instant Online Orders</b></h3>
+                    <h4>Order online and your food will be available as soon as you walk through the doors.</h4>
+                    <hr>
+                    <a class="btn btn-customE btn-lg" href="#">Order Online</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 parallax">
+                    <h2 id="hoursHeading">CAFE HOURS</h2>
+                    <br>
+                    <p>Weekdays: 7 am - 9 pm</p>
+                    <p>Saturday: 10 am - 9 pm</p>
+                    <p>Sunday: Closed</p>
+                    <br>
+                    <p><b>CAFE NOVUS</b></p>
+                    <p>149 South Main St</p>
+                    <p>High Abbey, NJ 42801</p>
+                    <p>(123) 456-7890</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12" id="about">
+                    <h2 id="aboutHeading">= ABOUT US =</h2>
+                    <br>
+                    <div class="col-md-6 col-md-offset-3 col-xs-12" id="aboutBody">
+                        <p><i>Cafe Novus has been serving the High Abbey community since 1995 and is locally renowned for its highest standards for fresh, artisan food & beverages all expertly prepared on premise. Furthermore, our commitment to the community goes beyond our menu. 5% of every purchase made at Cafe Novus is donated to the American Red Cross. With a stellar reputation inside and outside our establishment, Cafe Novus is High Abbey's best local cafe.</i></p>
+                        <i class="fa fa-pagelines fa-3x break1" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="cafeDetailsRow">
+                <div class="col-md-3 col-md-offset-2 col-xs-12" id="cafeImages">
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+   
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel2" data-slide-to="2"></li>
+                        </ol>
+   
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="assets/images/carsmallA.jpg">
+
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/carsmallB.jpg">
+
+                            </div>
+                            <div class="item">
+                                <img src="assets/images/carsmallC.jpg">
+   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-12" id="cafeDetails">
+                    <p>What was once an abandoned residential property has been transformed into a beautiful, spacious cafe & delicatessen that has attracted patrons from all over New Jersey. We want every customer who enters our premise to feel invited to stay not only to enjoy our beverages and food but also to relax and enjoy the overall experience of Cafe Novus. Enjoy at no additional cost:</p>
+                    
+                    <hr>
+                    <ul>
+                        <li><p><b>High speed wifi</b></p></li>
+                        <br>
+                        <li><p><b>Study section equipped with outlets for media devices</b></p></li>
+                        <br>
+                        <li><p><b>Lounge seating and tables</b></p></li>
+                        <br>
+                        <li><p><b>Free coffee and tea refills</b></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 parallaxB">
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-1 col-xs-12" id="testimonialHeading">
+                            <h2>TESTIMONIALS</h2>
+                        </div>
+                    </div>
+                    <div class="container testimonials">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12" id="testimonialA">
+                                <p><i>"Cafe Novus lives up to the hype. I've been coming here for the past decade for their tried and true and it is always top quality awesome."</i></p>
+                                <p>- Samuel J.</p>
+                            </div>
+                            <div class="col-md-4 col-xs-12" id="testimonialB">
+                                <p><i>"Since it's right down the block from where I work, this has been my go to place for almost a year and I've yet to be disappointed."</i></p>
+                                <p>- Jung K.</p>
+                            </div>
+                            <div class="col-md-4 col-xs-12" id="testimonialC">
+                                <p><i>"From mouth watering savories to delectable desserts, Cafe Novus is the bright star of High Abbey and all of New Jersey"</i></p>
+                                <p>- Eunice R.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-2 col-xs-12 footerInfoA" id="anchor2">
+                                <h2 class="footerHeading"><b>CAFE NOVUS</b></h2>
+                                <br>
+                                <p>Cafe Novus has been proudly serving the High Abbey community since 1995. As a commitment to the quality of our menu and staff, we are always open to our customer's feedback and suggestions.</p>
+                                <br>
+                                <h5 id="copyright">© Richard Oh</h5>
+                            </div>
+                            <div class="col-md-4 col-md-offset-1 col-xs-12 footerInfoB">
+                                <h4><b>CONTACT US</b></h4>
+                                <p>Phone: (123) 456-7890</p>
+                                <p>Email: Customercare@cafenovus.com</p>
+                                <p>Address: 149 South Main St.</p>
+                                <p>High Abbey, NJ 42801</p>
+                                <br>
+                                <h4><b>FOLLOW US</b></h4>
+                                <i class="fa fa-facebook-official fa-lg" id="iconA" aria-hidden="true"></i>
+                                <a href="#" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true" id="iconB"></i></a>
+                               <i class="fa fa-yelp fa-lg" aria-hidden="true" id="iconC"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script>
+
+$(document).ready(function() {
+
+    $('#myCarousel, #myCarousel2').carousel({
+        interval: false
+    })
+
+});
+
+</script>
+</body>
+
+</html>
