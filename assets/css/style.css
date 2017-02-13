@@ -785,6 +785,10 @@ td {
     #drinkMenu {
       margin-bottom: 70px;
     }
+
+    #membersInfo {
+      margin-bottom: 70px;
+    }
     
     #testimonialA, #testimonialB {
       border-right: none;
