@@ -595,8 +595,12 @@ td {
       height: 530px;
     }
 
-    .parallax, .parallaxB {
+    .parallax {
       background-attachment: scroll;
+    }
+
+    .parallaxB {
+      display: none;
     }
 
     #myCarousel .container-fluid {
