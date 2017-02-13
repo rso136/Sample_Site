@@ -613,7 +613,7 @@ td {
     }
     
     .carousel-captionA {
-        margin-top: 40vh;
+        margin-top: 270px;
         margin-left: 0;
         padding-top: 10px;
         width: 100%;
@@ -652,7 +652,8 @@ td {
     }
 
     .carousel-captionB {
-        margin-top: 40vh;
+        /*margin-top: 40vh;*/
+        margin-top: 270px;
         margin-left: 0;
         padding-top: 20px;
         width: 100%;
@@ -677,7 +678,7 @@ td {
     }
     
     .carousel-captionC {
-        margin-top: 40vh;
+        margin-top: 270px;
         margin-left: 0;
         padding-top: 20px;
         width: 100%;
