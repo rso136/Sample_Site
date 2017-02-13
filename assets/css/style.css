@@ -570,6 +570,10 @@ td {
   color: #d86b50;
 }
 
+/*#specialsHeading {
+  margin-top: 1.8vh;
+}*/
+
 .footer {
   background-color: #191919;
   color: #979899;
@@ -736,7 +740,9 @@ td {
       border-right: none;
     }
 
-
+    .rowBHeading {
+      margin-top: 8vh;
+    }
 }
 
 @media only screen 
