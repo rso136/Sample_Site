@@ -777,6 +777,14 @@ td {
     #entreeMenuA {
       margin-top: 15vh;
     }*/
+
+    #entreeMenuB {
+      margin-bottom: 70px;
+    }
+
+    #drinkMenu {
+      margin-bottom: 70px;
+    }
     
     #testimonialA, #testimonialB {
       border-right: none;
