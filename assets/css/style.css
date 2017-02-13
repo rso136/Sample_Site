@@ -599,6 +599,10 @@ td {
       height: 530px;
     }
 
+    #myCarousel img {
+      height: 250px;
+    }
+
     .parallax {
       background-attachment: scroll;
     }
