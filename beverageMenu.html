@@ -48,7 +48,7 @@
                         </ul>
                     </li>
                     <li class="menuOption"><a href="#" data-glf-cuid="372b031a-4b74-4de5-a6a1-93fc5f3e881e" data-glf-ruid="287d7f9a-c58b-4a54-b6d9-95aef0f5af85" data-glf-auto-open="false"><b>ORDER ONLINE</b></a></li>
-                    <li class="menuOption"><a href="#"><b>CONTACT</b></a></li>
+                    <li class="menuOption"><a href="#anchor2"><b>CONTACT</b></a></li>
                 </ul>
             </div>
         </div>
@@ -270,5 +270,26 @@
         </div>
     </div>    
 </body>
+
+<script>
+
+$(document).ready(function() {
+
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+
+});
+
+</script>
 
 </html>

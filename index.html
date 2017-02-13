@@ -48,7 +48,7 @@
                         </ul>
                     </li>
                     <li class="menuOption"><a href="#" data-glf-cuid="372b031a-4b74-4de5-a6a1-93fc5f3e881e" data-glf-ruid="287d7f9a-c58b-4a54-b6d9-95aef0f5af85" data-glf-auto-open="false"><b>ORDER ONLINE</b></a></li>
-                    <li class="menuOption"><a href="#"><b>CONTACT</b></a></li>
+                    <li class="menuOption"><a href="#anchor2"><b>CONTACT</b></a></li>
                 </ul>
             </div>
         </div>
@@ -69,7 +69,7 @@
                         <h1 class="bannerHeading"><b>CAFE NOVUS</b></h1>
                         <br>
                         <p class="lead">High Abbey's foremost cafe and delicatessan specializing in artisan food and beverages with premier ingredients.</p>
-                        <a class="btn btn-large btn-custom" href="#">Learn More</a>
+                        <a class="btn btn-large btn-custom" href="#anchor">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                             <h1 class="bannerHeading2"><b>Comforting & Healthy</b></h1>
                             <br>
                             <p class="lead">Try our new and delicious butternut squash porridge.</p>
-                            <a class="btn btn-large btn-custom2" href="#">More Entrees</a>
+                            <a class="btn btn-large btn-custom2" href="entreeMenu.html">More Entrees</a>
                         </div>
                     </div>
             </div>
@@ -92,7 +92,7 @@
                             <h1 class="bannerHeading2"><b>Always Fresh</b></h1>
                             <br>
                             <p class="lead">All our baked goods are prepped on premise.</p>
-                            <a class="btn btn-large btn-custom2" href="#">View Menu</a>
+                            <a class="btn btn-large btn-custom2" href="entreeMenu.html">View Menu</a>
                         </div>
                     </div>
             </div>
@@ -107,8 +107,8 @@
                     <h2 id="menuHeading">OUR MENU</h2>
                     <p id="menuStatement">All of our menu items are prepared with fresh, non-GMO, certified organic ingredients because we consider our customers a long-term investment. Your enjoyment and health matters to us and we aim to develop lasting relationships with each patron that visits our establishment.</p>
                     <hr>
-                    <a class="btn btn-customB" href="#">Beverages</a>
-                    <a class="btn btn-customC" href="#">Entree Menu</a>
+                    <a class="btn btn-customB" href="beverageMenu.html">Beverages</a>
+                    <a class="btn btn-customC" href="entreeMenu.html">Entree Menu</a>
                 </div>
                 <div class="col-md-6 col-xs-12" id="menuImage">
 
@@ -150,7 +150,7 @@
                     <p>(123) 456-7890</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="anchor">
                 <div class="col-md-12 col-xs-12" id="about">
                     <h2 id="aboutHeading">= ABOUT US =</h2>
                     <br>
@@ -260,7 +260,20 @@ $(document).ready(function() {
 
     $('#myCarousel, #myCarousel2').carousel({
         interval: false
-    })
+    });
+
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
 
 });
 
