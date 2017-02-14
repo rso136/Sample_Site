@@ -835,13 +835,14 @@ and (max-device-width : 1024px) {
     height: 450px;
   }
 
-  .carousel-controlA {
-    /*margin-top: 200px;*/
+  /*.carousel-controlA {
+    /*margin-top: 200px;
     display: none;
-  }
+  }*/
 
-  #myCarousel .carousel-indicators {
-    
+  #myCarousel .carousel-control {
+    margin-top: 200px;
+    font-size: 100px;
   }
 
   .carousel-captionA {
