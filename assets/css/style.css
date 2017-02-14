@@ -819,6 +819,10 @@ and (max-device-width : 1024px) {
     padding-bottom: 45rem;
   }
 
+  .parallax {
+    background-attachment: scroll;
+  }
+
   .parallaxB {
     display: none;
   }
