@@ -852,12 +852,18 @@ and (max-device-width : 1024px) {
   .carousel-captionA {
       margin-top: 135px;
       margin-left: 35vw;
+      padding-left: 10vw;
+      padding-right: 10vw;
       width: 100%;
       text-align: center;
   }
 
+  #leadA {
+    font-size: 1.3em;
+  }
+
   .carousel-captionB {
-      margin-top: 210px;
+      margin-top: 240px;
       margin-left: 37vw;
       width: 100%;
       text-align: center;    
